@@ -1,0 +1,13 @@
+* {
+    color: #ffbc42ff;
+    background-color: #2f2f2fff;
+}
+img {
+    border-radius: 50%;
+}
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
