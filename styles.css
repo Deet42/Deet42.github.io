@@ -1,6 +1,6 @@
-@font-face { font-family: Visage; src: url('Visage\ Regular.otf'); }
-@font-face { font-family: Visage; font-weight: bold; src: url('Visage\ Bold.otf'); }
-@font-face { font-family: VisageOL; src: url('Visage\ Outline.otf'); }
+@font-face { font-family: Visage; src: url('/Visage\ Regular.otf'); }
+@font-face { font-family: VisageB; src: url('/Visage\ Bold.otf'); }
+@font-face { font-family: VisageOL; src: url('/Visage\ Outline.otf'); }
 * {
     color: #92dce5ff;
     background-color: #2f2f2fff;
@@ -29,6 +29,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.center2 {
+  text-align: center;
 }
 .marginbot1 {
     margin-top: 40px;
@@ -64,10 +67,10 @@
     background-color: rgba(8, 125, 167, 0.7);
     color: #ffbc42ff;
   }
-.columns2 {
-    text-align: center;
+.column2 {
+    width:50%;
+    float: left;
 }
 .columns2 div {
-    width:49.9%;
-    float: left;
+  text-align: center;
 }
