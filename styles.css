@@ -1,6 +1,6 @@
-@font-face { font-family: Visage; src: url('/Visage\ Regular.otf'); }
+@font-face { font-family: Visage; src: url('/Visage\ Regular.otf'); } /*<!--remember to add a "/" infront of styles.css before commiting to github-->*/
 @font-face { font-family: VisageB; src: url('/Visage\ Bold.otf'); }
-@font-face { font-family: VisageOL; src: url('/Visage\ Outline.otf'); }
+@font-face { font-family: VisageOL; src: url('/Visage\ Outline.otf'); } 
 * {
     color: #92dce5ff;
     background-color: #2f2f2fff;
